@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://lqxut6v7ur84"]
+
+[ext_resource type="Script" path="res://scripts/resources/question.gd" id="1_04nh5"]
+
+[resource]
+script = ExtResource("1_04nh5")
+question_info = "O Brasil possui quantos titulos mundiais ?"
+type = 0
+options = Array[String](["6", "5", "4", "3"])
+correct = "6"

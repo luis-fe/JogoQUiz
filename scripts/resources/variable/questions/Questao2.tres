@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://jwx2yn3n5qw3"]
+
+[ext_resource type="Script" path="res://scripts/resources/question.gd" id="1_0ddb1"]
+
+[resource]
+script = ExtResource("1_0ddb1")
+question_info = "Qual dessas opçoes nao é uma linguagem de programacao?"
+type = 0
+options = Array[String](["PHP", "JAVA", "CSS", "PYTHON"])
+correct = "CSS"
