@@ -17,9 +17,11 @@ var correct: int
 func _ready() -> void:
 	for button in $conteudo/QuestionHolder.get_children():
 		buttoms.append(button)
+	
+	load_quiz()
 
 func load_quiz() -> void:
 	label_pegunta.text =  quizTheme.theme[index].question_info
-	pass
+	
 
 	
