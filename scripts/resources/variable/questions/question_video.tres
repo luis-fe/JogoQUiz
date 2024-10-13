@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=3 format=3 uid="uid://ccvafblbs2lnd"]
+
+[ext_resource type="Script" path="res://scripts/resources/question.gd" id="1_01fab"]
+[ext_resource type="VideoStream" path="res://videoGame__Copy_.ogv" id="1_is1n7"]
+
+[resource]
+script = ExtResource("1_01fab")
+question_info = "Qual o Game do video ?"
+type = 3
+question_video = ExtResource("1_is1n7")
+options = Array[String](["call of duty black ops 2", "assassin's creed ii", "counter strike go 2", "fortnite"])
+correct = ""

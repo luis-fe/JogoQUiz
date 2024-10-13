@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=3 format=3 uid="uid://b03mr8yvblmhk"]
+
+[ext_resource type="Script" path="res://scripts/resources/question.gd" id="1_3vobl"]
+[ext_resource type="Texture2D" uid="uid://b73lrjq2ql7p6" path="res://ps2.jpeg" id="1_u6pcr"]
+
+[resource]
+script = ExtResource("1_3vobl")
+question_info = "Qual o video game mais vendido da Historia ?"
+type = 1
+question_image = ExtResource("1_u6pcr")
+options = Array[String](["Super Nitendo", "XBOX ONE", "PLAYSTATION 2", "Nitendo DS"])
+correct = null

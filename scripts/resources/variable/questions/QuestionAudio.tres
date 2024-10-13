@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=4 format=3 uid="uid://bipw51fogi5tp"]
+
+[ext_resource type="AudioStream" uid="uid://dule3k05jvc8w" path="res://Mortal-Kombat-All-Announcer-Sounds.ogg" id="1_4q52f"]
+[ext_resource type="Script" path="res://scripts/resources/question.gd" id="1_ceru6"]
+[ext_resource type="Texture2D" uid="uid://d08hgrabpc3bw" path="res://imagem.png" id="2_shh7s"]
+
+[resource]
+script = ExtResource("1_ceru6")
+question_info = "Esse Sound pertence a qual jogo de Luta ?"
+type = 2
+question_image = ExtResource("2_shh7s")
+question_audio = ExtResource("1_4q52f")
+options = Array[String](["dragon ball fighter z", "street fighter", "mortal kombat", "taken fight"])
+correct = ""
