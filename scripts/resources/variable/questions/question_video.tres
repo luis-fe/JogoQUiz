@@ -9,4 +9,4 @@ question_info = "Qual o Game do video ?"
 type = 3
 question_video = ExtResource("1_is1n7")
 options = Array[String](["call of duty black ops 2", "assassin's creed ii", "counter strike go 2", "fortnite"])
-correct = ""
+correct = "counter strike go 2"

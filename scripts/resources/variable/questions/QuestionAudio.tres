@@ -11,4 +11,4 @@ type = 2
 question_image = ExtResource("2_shh7s")
 question_audio = ExtResource("1_4q52f")
 options = Array[String](["dragon ball fighter z", "street fighter", "mortal kombat", "taken fight"])
-correct = ""
+correct = "mortal kombat"

@@ -1,6 +1,6 @@
 extends Node
 
-@export var quizTheme : QuizTheme
+@export var quiz : QuizTheme
 @export var collor_rigth : Color
 @export var collor_wrong: Color
 
@@ -11,6 +11,7 @@ var correct: int
 @onready var label_pegunta: Label = $conteudo/Questoes/LabelPegunta
 @onready var question_imagem: TextureRect = $conteudo/Questoes/ImagemHolder/QuestionImagem
 @onready var question_video: VideoStreamPlayer = $conteudo/Questoes/ImagemHolder/QuestionVideo
+@onready var question_audio: AudioStreamPlayer = $conteudo/Questoes/ImagemHolder/QuestionAudio
 
 
 
@@ -21,7 +22,4 @@ func _ready() -> void:
 	load_quiz()
 
 func load_quiz() -> void:
-	label_pegunta.text =  quizTheme.theme[index].question_info
-	
-
-	
+	label_pegunta.text =  quiz.theme[index].question_info

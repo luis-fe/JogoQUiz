@@ -9,4 +9,4 @@ question_info = "Qual o video game mais vendido da Historia ?"
 type = 1
 question_image = ExtResource("1_u6pcr")
 options = Array[String](["Super Nitendo", "XBOX ONE", "PLAYSTATION 2", "Nitendo DS"])
-correct = null
+correct = "PLAYSTATION 2"

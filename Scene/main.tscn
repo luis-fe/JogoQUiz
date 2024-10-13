@@ -56,7 +56,7 @@ grow_horizontal = 2
 grow_vertical = 2
 expand = true
 
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="conteudo/Questoes/ImagemHolder"]
+[node name="QuestionAudio" type="AudioStreamPlayer" parent="conteudo/Questoes/ImagemHolder"]
 
 [node name="QuestionHolder" type="VBoxContainer" parent="conteudo"]
 layout_mode = 1
